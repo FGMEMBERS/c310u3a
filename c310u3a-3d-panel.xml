@@ -36,8 +36,8 @@ override those by providing <w>..</w> and <h>..</h> properties with the
 
  <name>Cessna C310 VFR Panel</name>
  <background>Aircraft/c310u3a/transparent-bg.rgb</background>
- <w>1100</w>
- <h>510</h>
+ <w>1130</w>
+ <h>540</h>
  <y-offset>0</y-offset>
  <view-height>450</view-height>
 
@@ -405,6 +405,7 @@ override those by providing <w>..</w> and <h>..</h> properties with the
  </instruments>
 
 </PropertyList>
+
 
 
 
