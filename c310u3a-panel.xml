@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 
 <!--
-Cessna 310 panel.
-November 2001
-John Check <j4strngs@rockfish.net>
+Navy U-3A panel (c310u3a)
+March 2002
+Jim Wilson <jimw@kelcomaine.com>
+based on c310 by John Check <j4strngs@rockfish.net>
 _______________________________________________________________________
 
 This is a panel configuration file for the open-source flight
@@ -412,6 +413,7 @@ override those by providing <w>..</w> and <h>..</h> properties with the
  </instruments>
 
 </PropertyList>
+
 
 
 
