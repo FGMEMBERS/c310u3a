@@ -12,19 +12,19 @@
  <panel>
   <path>Aircraft/c310u3a/c310u3a-3d-panel.xml</path>
   <bottom-left>
-   <x-m>-0.832</x-m>
-   <y-m>-0.65</y-m>
+   <x-m>-0.776</x-m>
+   <y-m>-0.695</y-m>
    <z-m> 0.05</z-m>
   </bottom-left>
   <bottom-right>
-   <x-m>-0.832</x-m>
-   <y-m>0.15</y-m>
+   <x-m>-0.776</x-m>
+   <y-m> 0.1</y-m>
    <z-m> 0.05</z-m>
   </bottom-right>
   <top-left>
-   <x-m>-0.832</x-m>
-   <y-m>-0.65</y-m>
-   <z-m> 0.54</z-m>
+   <x-m>-0.776</x-m>
+   <y-m>-0.695</y-m>
+   <z-m> 0.55</z-m>
   </top-left>
  </panel>
 
