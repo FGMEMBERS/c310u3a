@@ -7,7 +7,7 @@ Generously donated for GPL release by Chris Lampard.  See base package COPYING
 file for more info on GPL.
 
 Modifications:
-Jim Wilson (Modifcations to 3D model, Animation) - jimw@kelcomaine.com
+Jim Wilson (Internal Cockpit, and mods to 3D model, Animation) - jimw@kelcomaine.com
 
 Description by Dave Haskell from the original release notes:
 
@@ -21,4 +21,5 @@ of the 1960's.  He has since won the Best Replica Warbird at both Sun 'n Fun
 and EAA AirVenture Oshkosh. It was the article in December '98's Sport Aviation
 magazine that inspired me to produce this panel and to ask Chris Lampard to build
 the aircraft.
+
 
