@@ -8,6 +8,26 @@
    <pitch-deg>2</pitch-deg>
  </offsets>
 
+ <!-- Front panel -->
+ <panel>
+  <path>Aircraft/c310u3a/c310u3a-3d-panel.xml</path>
+  <bottom-left>
+   <x-m>-0.832</x-m>
+   <y-m>-0.65</y-m>
+   <z-m> 0.05</z-m>
+  </bottom-left>
+  <bottom-right>
+   <x-m>-0.832</x-m>
+   <y-m>0.15</y-m>
+   <z-m> 0.05</z-m>
+  </bottom-right>
+  <top-left>
+   <x-m>-0.832</x-m>
+   <y-m>-0.65</y-m>
+   <z-m> 0.54</z-m>
+  </top-left>
+ </panel>
+
  <!-- LOD for the model as a whole -->
 
  <animation>
