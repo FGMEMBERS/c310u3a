@@ -169,7 +169,7 @@
   <object-name>NoseWheelFork</object-name>
   <property>/gear/gear[0]/position-norm</property>
   <factor>120</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>-120</offset-deg>
   <min-deg>-90</min-deg>
   <max-deg>0</max-deg>
   <center>
@@ -189,7 +189,7 @@
   <object-name>FrontNoseWheelDoor</object-name>
   <property>/gear/gear[0]/position-norm</property>
   <factor>120</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>-120</offset-deg>
   <min-deg>-90</min-deg>
   <max-deg>0</max-deg>
   <center>
@@ -209,7 +209,7 @@
   <object-name>LeftNoseWheelDoor</object-name>
   <property>/gear/gear[0]/position-norm</property>
   <factor>-360</factor>
-  <offset-deg>-0.25</offset-deg>
+  <offset-deg>-90</offset-deg>
   <min-deg>0</min-deg>
   <max-deg>90</max-deg>
   <center>
@@ -250,7 +250,7 @@
   <object-name>LeftGearFrame</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>-80</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>80</offset-deg>
   <center>
    <x-m>0.2</x-m>
    <y-m>-2.0</y-m>
@@ -268,7 +268,7 @@
   <object-name>LeftGearDoor</object-name>
   <property>/gear/gear[1]/position-norm</property>
   <factor>-80</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>80</offset-deg>
   <center>
    <x-m>0.2</x-m>
    <y-m>-2.0</y-m>
@@ -287,7 +287,7 @@
   <object-name>RightGearFrame</object-name>
   <property>/gear/gear[2]/position-norm</property>
   <factor>80</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>-80</offset-deg>
   <center>
    <x-m>0.2</x-m>
    <y-m>2.0</y-m>
@@ -305,7 +305,7 @@
   <object-name>RightGearDoor</object-name>
   <property>/gear/gear[2]/position-norm</property>
   <factor>80</factor>
-  <offset-deg>-1</offset-deg>
+  <offset-deg>-80</offset-deg>
   <center>
    <x-m>0.2</x-m>
    <y-m>2.0</y-m>
