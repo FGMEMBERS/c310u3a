@@ -8,6 +8,23 @@
    <pitch-deg>2</pitch-deg>
  </offsets>
 
+ <!-- LOD for the model as a whole -->
+
+ <animation>
+  <type>range</type>
+  <min-m>0</min-m>
+  <max-m>10000</max-m>
+ </animation>
+
+ <!-- LOD for specific objects -->
+
+ <animation>
+  <type>range</type>
+  <object-name>Cockpit</object-name>
+  <min-m>0</min-m>
+  <max-m>100</max-m>
+ </animation>
+
  <animation>
   <type>spin</type>
   <object-name>LeftPropeller</object-name>
@@ -352,6 +369,7 @@
  </animation>
 
 </PropertyList>
+
 
 
 
