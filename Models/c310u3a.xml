@@ -77,7 +77,7 @@
   <type>spin</type>
   <object-name>TailLight</object-name>
   <property>/sim/model/light-blinks-minute</property>
-  <factor>4</factor>
+  <factor>0.5</factor>
   <center>
    <x-m>4.23</x-m>
    <y-m>0.0</y-m>
@@ -436,6 +436,7 @@
  </animation>
 
 </PropertyList>
+
 
 
 
