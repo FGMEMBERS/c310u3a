@@ -40,28 +40,28 @@ override those by providing <w>..</w> and <h>..</h> properties with the
  <multibackground>Aircraft/c310u3a/c310u3a-panel-03.rgb</multibackground>
  <multibackground>Aircraft/c310u3a/c310u3a-panel-04.rgb</multibackground>
  <multibackground>Aircraft/c310u3a/c310u3a-panel-05.rgb</multibackground>
- <multibackground>Aircraft/c310u3a/c310u3a-panel-04.rgb</multibackground>
+ <multibackground>Aircraft/c310u3a/c310u3a-panel-06.rgb</multibackground>
  <multibackground>Aircraft/c310u3a/c310u3a-panel-07.rgb</multibackground>
  <multibackground>Aircraft/c310u3a/c310u3a-panel-08.rgb</multibackground>
  <w>1424</w>
- <h>468</h>
+ <h>568</h>
  <y-offset>0</y-offset>
- <view-height>440</view-height>
+ <view-height>450</view-height>
 
  <instruments>
 
   <instrument include="../Instruments/dme.xml">
    <name>DME Display</name>
-   <x>140</x>
-   <y>200</y>
+   <x>750</x>
+   <y>500</y>
    <w>100</w>
    <h>50</h>
   </instrument>
 
  <instrument include="../Instruments/clock.xml">
    <name>Chronometer</name>
-   <x>157</x>
-   <y>300</y>
+   <x>85</x>
+   <y>285</y>
    <w>90</w>
    <h>90</h>
   </instrument>
@@ -70,51 +70,104 @@ override those by providing <w>..</w> and <h>..</h> properties with the
 
   <instrument include="../Instruments/asi-260-knot.xml">
    <name>Airspeed Indicator</name>
-   <x>260</x>
-   <y>352</y>
-   <w>120</w>
-   <h>120</h>
+   <x>290</x>
+   <y>402</y>
+   <w>110</w>
+   <h>110</h>
   </instrument>
   
   <instrument include="../Instruments/turn.xml">
    <name>Turn Coordinator</name>
-   <x>260</x>
-   <y>225</y>
-   <w>120</w>
-   <h>120</h>
+   <x>290</x>
+   <y>285</y>
+   <w>110</w>
+   <h>110</h>
   </instrument>
 
   <instrument include="../Instruments/attitude-indicator.xml">
    <name>Attitude Indicator</name>
-   <x>400</x>
-   <y>352</y>
-   <w>120</w>
-   <h>120</h>
+   <x>405</x>
+   <y>402</y>
+   <w>110</w>
+   <h>110</h>
   </instrument>
 
   <instrument include="../Instruments/altimeter.xml">
    <name>Altimeter</name>
-   <x>540</x>
-   <y>352</y>
-   <w>120</w>
-   <h>120</h>
+   <x>520</x>
+   <y>402</y>
+   <w>110</w>
+   <h>110</h>
   </instrument>
 
 
   <instrument include="../Instruments/hsi.xml">
    <name>Horizontal Situation Indicator</name>
-   <x>400</x>
-   <y>225</y>
-   <w>120</w>
-   <h>120</h>
+   <x>405</x>
+   <y>285</y>
+   <w>110</w>
+   <h>110</h>
   </instrument>
 
   <instrument include="../Instruments/vertical.xml">
    <name>Vertical Velocity Indicator</name>
-   <x>540</x>
-   <y>225</y>
-   <w>120</w>
-   <h>120</h>
+   <x>520</x>
+   <y>285</y>
+   <w>110</w>
+   <h>110</h>
+  </instrument>
+
+<!-- end sacred six -->
+
+<!-- sacred six co-pilot -->
+
+  <instrument include="../Instruments/asi-260-knot.xml">
+   <name>Airspeed Indicator</name>
+   <x>904</x>
+   <y>402</y>
+   <w>110</w>
+   <h>110</h>
+  </instrument>
+  
+  <instrument include="../Instruments/turn.xml">
+   <name>Turn Coordinator</name>
+   <x>904</x>
+   <y>285</y>
+   <w>110</w>
+   <h>110</h>
+  </instrument>
+
+  <instrument include="../Instruments/attitude-indicator.xml">
+   <name>Attitude Indicator</name>
+   <x>1019</x>
+   <y>402</y>
+   <w>110</w>
+   <h>110</h>
+  </instrument>
+
+  <instrument include="../Instruments/altimeter.xml">
+   <name>Altimeter</name>
+   <x>1134</x>
+   <y>402</y>
+   <w>110</w>
+   <h>110</h>
+  </instrument>
+
+
+  <instrument include="../Instruments/hsi.xml">
+   <name>Horizontal Situation Indicator</name>
+   <x>1019</x>
+   <y>285</y>
+   <w>110</w>
+   <h>110</h>
+  </instrument>
+
+  <instrument include="../Instruments/vertical.xml">
+   <name>Vertical Velocity Indicator</name>
+   <x>1134</x>
+   <y>285</y>
+   <w>110</w>
+   <h>110</h>
   </instrument>
 
 <!-- end sacred six -->
@@ -122,62 +175,120 @@ override those by providing <w>..</w> and <h>..</h> properties with the
 <!-- engine gauges cluster -->  
   <instrument include="../Instruments/dual-manifold-pressure.xml">
    <name>Manifold Pressure Gauge</name>
-   <x>942</x>
-   <y>339</y>
-   <w>120</w>
-   <h>120</h>
+   <x>405</x>
+   <y>160</y>
+   <w>100</w>
+   <h>100</h>
   </instrument>
  
   <instrument include="../Instruments/tach-2700-redline.xml">
    <name>RPM Gauge</name>
-   <x>942</x>
-   <y>225</y>
-   <w>120</w>
-   <h>120</h>
+   <x>520</x>
+   <y>160</y>
+   <w>100</w>
+   <h>100</h>
   </instrument>
   
   <instrument include="../Instruments/egt-dual.xml">
    <name>Dual EGT Gauge</name>
-   <x>942</x>
-   <y>99</y>
-   <w>120</w>
-   <h>120</h>
+   <x>185</x>
+   <y>130</y>
+   <w>100</w>
+   <h>100</h>
   </instrument>
 
   <instrument include="../Instruments/fuel.xml">
    <name>Fuel Gauge</name>
-   <x>540</x>
-   <y>99</y>
-   <w>115</w>
-   <h>115</h>
+   <x>85</x>
+   <y>130</y>
+   <w>100</w>
+   <h>100</h>
   </instrument>
   
   
 
-<!-- end engine controls cluster -->
+<!-- end engine guages cluster -->
+
+<!-- engine gauges cluster co pilot -->  
+ 
+  <instrument include="../Instruments/tach-2700-redline.xml">
+   <name>RPM Gauge</name>
+   <x>924</x>
+   <y>160</y>
+   <w>100</w>
+   <h>100</h>
+  </instrument>
+  
+  <instrument include="../Instruments/egt-dual.xml">
+   <name>Dual EGT Gauge</name>
+   <x>1239</x>
+   <y>250</y>
+   <w>100</w>
+   <h>100</h>
+  </instrument>
+
+  <instrument include="../Instruments/fuel.xml">
+   <name>Fuel Gauge</name>
+   <x>1339</x>
+   <y>250</y>
+   <w>100</w>
+   <h>100</h>
+  </instrument>
+  
+  
+
+<!-- end engine guages cluster -->
   
 <!-- controls visual feedback cluster -->  
 
   <instrument include="../Instruments/gear-indicator.xml">
    <name>Gear Indicator Light</name>
-   <x>400</x>
-   <y>159</y>
+   <x>290</x>
+   <y>209</y>
    <w>40</w>
    <h>17</h>
   </instrument>
   
   <instrument include="../Instruments/brakes.xml">
    <name>Brake Indicator Light</name>
-   <x>400</x>
-   <y>140</y>
+   <x>290</x>
+   <y>190</y>
    <w>40</w>
    <h>17</h>
   </instrument>
 
   <instrument include="../Instruments/controls.xml">
    <name>Control Position Indicators</name>
-   <x>400</x>
-   <y>80</y>
+   <x>290</x>
+   <y>130</y>
+   <w>90</w>
+   <h>90</h>
+  </instrument>
+
+<!-- end controls visual feedback cluster -->
+
+<!-- controls visual feedback cluster co-pilot -->  
+
+  <instrument include="../Instruments/gear-indicator.xml">
+   <name>Gear Indicator Light</name>
+   <x>1134</x>
+   <y>209</y>
+   <w>40</w>
+   <h>17</h>
+  </instrument>
+  
+  <instrument include="../Instruments/brakes.xml">
+   <name>Brake Indicator Light</name>
+   <x>1134</x>
+   <y>190</y>
+   <w>40</w>
+   <h>17</h>
+  </instrument>
+
+  <instrument include="../Instruments/controls.xml">
+   <name>Control Position Indicators</name>
+   <x>1134</x>
+   <y>130</y>
    <w>90</w>
    <h>90</h>
   </instrument>
@@ -189,15 +300,6 @@ override those by providing <w>..</w> and <h>..</h> properties with the
 
 <!-- radio nav instruments  -->
 
-<!--
-<instrument include="..Instruments/nav1.xml">
-   <name>VOR 1 Gauge</name>
-   <x>275</x>
-   <y>379</y>
-   <w>120</w>
-   <h>120</h>
-  </instrument>
--->
   <instrument include="../Instruments/nav1.xml">
    <name>VOR 2 Gauge</name>
    <params>
@@ -209,39 +311,38 @@ override those by providing <w>..</w> and <h>..</h> properties with the
     <nav-has-gs-needle>/sim/instrument-options/nav[1]/has-gs-needle</nav-has-gs-needle>
     <nav-needles-pivot>/sim/instrument-options/nav[1]/needles-pivot</nav-needles-pivot>
    </params>
-   <x>260</x>
-   <y>99</y>
-   <w>120</w>
-   <h>120</h>
+   <x>180</x>
+   <y>365</y>
+   <w>110</w>
+   <h>110</h>
   </instrument>
 
-<!--
-  <instrument include="../Instruments/adf.xml">
-   <name>ADF Gauge</name>
-   <x>130</x>
-   <y>99</y>
-   <w>120</w>
-   <h>120</h>
-  </instrument>
--->
 <!-- end radio nav instruments -->
 
   <instrument include="../Instruments/gyro.xml">
    <name>Directional Gauge</name>
-   <x>130</x>
-   <y>99</y>
-   <w>120</w>
-   <h>120</h>
+   <x>180</x>
+   <y>250</y>
+   <w>110</w>
+   <h>110</h>
   </instrument>
 
+<!-- co-pilot directiional -->
+  <instrument include="../Instruments/gyro.xml">
+   <name>Directional Gauge</name>
+   <x>1244</x>
+   <y>365</y>
+   <w>110</w>
+   <h>110</h>
+  </instrument>
 
 <!-- radio stack -->
 
   
   <instrument include="../Instruments/markerbeacon.xml">
    <name>Marker Beacon Indicators</name>
-   <x>658</x>
-   <y>405</y>
+   <x>647</x>
+   <y>499</y>
    <w>70</w>
    <h>22</h>
   </instrument>
@@ -249,8 +350,8 @@ override those by providing <w>..</w> and <h>..</h> properties with the
       
   <instrument include="../Instruments/navcom-kx155.xml">
    <name>NavCom 1 Radio</name>
-   <x>750</x>
-   <y>350</y>
+   <x>711</x>
+   <y>432</y>
   </instrument>
 
   <instrument include="../Instruments/navcom-kx155.xml">
@@ -263,28 +364,28 @@ override those by providing <w>..</w> and <h>..</h> properties with the
     <nav-morse-id-volume-prop>/radios/nav[1]/volume</nav-morse-id-volume-prop>
     <nav-morse-ident-toggle-prop>/radios/nav[1]/ident</nav-morse-ident-toggle-prop>
    </params>
-   <x>750</x>
-   <y>262</y>
+   <x>711</x>
+   <y>344</y>
   </instrument>
   
   <instrument include="../Instruments/adf-radio.xml">
    <name>ADF Radio</name>
-   <x>750</x>
-   <y>185</y>
+   <x>711</x>
+   <y>267</y>
   </instrument>
 
   <instrument include="../Instruments/autopilot.xml">
    <name>Autopilot</name>
-   <x>750</x>
-   <y>135</y>
+   <x>711</x>
+   <y>217v</y>
   </instrument>
 
 <!-- end radio stack -->
   
   <instrument include="../Instruments/twin-magneto-switch.xml">
    <name>Magneto switch panel</name>
-   <x>700</x>
-   <y>95</y>
+   <x>530</x>
+   <y>35</y>
    <w>100</w>
    <h>50</h>
   </instrument>
@@ -292,22 +393,27 @@ override those by providing <w>..</w> and <h>..</h> properties with the
   <instrument include="../Instruments/throttle-quadrant.xml">
   <name>Throttle quadrant</name>
   <x>700</x>
-  <y>35</y>
+  <y>40</y>
   </instrument>
 
   <instrument include="../Instruments/flap.xml">
    <name>Flaps Control</name>
-   <x>845</x>
-   <y>50</y>
+   <x>812</x>
+   <y>40</y>
+   <w>50</w>
+   <h>75</h>
   </instrument>
 
   <instrument include="../Instruments/magcompass.xml">
    <name>Magnetic Compass</name>
-   <x>668</x>
-   <y>480</y>
+   <x>713</x>
+   <y>580</y>
   </instrument>
  </instruments>
 
 </PropertyList>
+
+
+
 
 
