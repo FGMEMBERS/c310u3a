@@ -62,7 +62,6 @@ http://aeroweb.brooklyn.cuny.edu/specs/cessna/u-3a.htm
     AC_AERORP      46.0   0.0  8.6
     AC_CGLOC       46.0   0.0  8.6
     AC_EYEPTLOC    35.0 -12.0 38.0
-    AC_ALPHALIMITS -0.087 0.28
 
   </METRICS>
 
@@ -289,6 +288,8 @@ http://aeroweb.brooklyn.cuny.edu/specs/cessna/u-3a.htm
    </FLIGHT_CONTROL>
 
    <AERODYNAMICS>
+
+     AC_ALPHALIMITS -0.087 0.28
 
      <AXIS NAME="LIFT">
 
@@ -750,6 +751,7 @@ http://aeroweb.brooklyn.cuny.edu/specs/cessna/u-3a.htm
     PROPULSION       ON
   </OUTPUT>
 </FDM_CONFIG>
+
 
 
 
