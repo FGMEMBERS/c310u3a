@@ -4,8 +4,8 @@
 
  <path>c310u3a.ac</path>
  <offsets>
-   <z-m>0.2</z-m>
-   <pitch-deg>2</pitch-deg>
+   <z-m>0</z-m>
+   <pitch-deg>0</pitch-deg>
  </offsets>
 
  <!-- Front panel -->
