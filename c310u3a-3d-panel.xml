@@ -61,7 +61,7 @@ override those by providing <w>..</w> and <h>..</h> properties with the
 
 <!-- sacred six -->
 
-  <instrument include="../Instruments/asi-260-knot.xml">
+  <instrument include="../Instruments/asi-c310.xml">
    <name>Airspeed Indicator</name>
    <x>475</x>
    <y>402</y>
@@ -114,7 +114,7 @@ override those by providing <w>..</w> and <h>..</h> properties with the
 
 <!-- sacred six co-pilot -->
 
-  <instrument include="../Instruments/asi-260-knot.xml">
+  <instrument include="../Instruments/asi-c310.xml">
    <name>Airspeed Indicator</name>
    <x>1089</x>
    <y>402</y>
