@@ -209,7 +209,7 @@
   <object-name>LeftNoseWheelDoor</object-name>
   <property>/gear/gear[0]/position-norm</property>
   <factor>-360</factor>
-  <offset-deg>-90</offset-deg>
+  <offset-deg>90</offset-deg>
   <min-deg>0</min-deg>
   <max-deg>90</max-deg>
   <center>
@@ -229,7 +229,7 @@
   <object-name>RightNoseWheelDoor</object-name>
   <property>/gear/gear[0]/position-norm</property>
   <factor>360</factor>
-  <offset-deg>-0.25</offset-deg>
+  <offset-deg>-90</offset-deg>
   <min-deg>-90</min-deg>
   <max-deg>0</max-deg>
   <center>
