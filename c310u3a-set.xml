@@ -15,7 +15,7 @@ March 2002 Jim Wilson, jimw@kelcomaine.com
  <sim>
 
   <description>Cessna 310U3A w. 3D cockpit</description>
-  <author>Chris Lampard (3D), Jim Wilson (3D, Panel),John Check (Panel), David Megginson (FDM), Tony Peden (FDM)</author>
+  <author>Chris Lampard (3D), Jim Wilson (3D, Panel), John Check (Panel), David Megginson (FDM), Tony Peden (FDM)</author>
   
   <virtual-cockpit archive="y">true</virtual-cockpit>
   <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
