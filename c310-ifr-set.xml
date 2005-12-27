@@ -17,11 +17,11 @@ March 2002 Jim Wilson, jimw@kelcomaine.com
   <description>Cessna 310 with IFR panel</description>
 
   <panel>
-  <path>Aircraft/c310/c310-ifr-panel.xml</path>
+  <path>Aircraft/c310/Panels/c310-ifr-panel.xml</path>
   <visibility>true</visibility>
   </panel>
   <panel_2>
-   <path>Aircraft/c310/c310-mini-panel.xml</path>
+   <path>Aircraft/c310/Panels/c310-mini-panel.xml</path>
   </panel_2>
  
  </sim>
