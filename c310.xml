@@ -43,9 +43,9 @@
             <z> 38 </z>
         </location>
         <location name="VRP" unit="IN">
-            <x> 0 </x>
+            <x> 46 </x>
             <y> 0 </y>
-            <z> 0 </z>
+            <z> 8.6 </z>
         </location>
     </metrics>
 
@@ -323,10 +323,15 @@
             <contents unit="LBS"> 95 </contents>
         </tank>
     </propulsion>
-
-    <!-- autopilot file="c310ap"/ -->
-
+<!--
+    <autopilot file="c310ap"/>
+-->
     <flight_control name="Cessna 310">
+        <!-- Declare some interface properties -->
+
+        <property>ap/elevator_cmd</property>
+        <property>ap/aileron_cmd</property>
+
         <channel name="Pitch">
             <summer name="Pitch Trim Sum">
                 <input>ap/elevator_cmd</input>
@@ -347,6 +352,20 @@
                 <gain>0.01745</gain>
                 <output>fcs/elevator-pos-rad</output>
             </aerosurface_scale>
+
+            <aerosurface_scale name="Elevator position normalized">
+  	         <input>fcs/elevator-pos-deg</input>
+  	         <domain>
+  	             <min>-25</min>
+  	             <max>35</max>
+  	         </domain>
+  	         <range>
+  	              <min>-1</min>
+  	              <max>1</max>
+  	         </range>
+  	         <output>fcs/elevator-pos-norm</output>
+  	     </aerosurface_scale>
+
         </channel>
 
         <channel name="Roll">
@@ -427,6 +446,20 @@
                 </range>
                 <output>fcs/rudder-pos-rad</output>
             </aerosurface_scale>
+
+            <aerosurface_scale name="Rudder position normalized">
+                 <input>fcs/rudder-pos-deg</input>
+                 <domain>
+                      <min>-25</min>
+                      <max>25</max>
+                 </domain>
+                 <range>
+                      <min>-1</min>
+                      <max>1</max>
+                 </range>
+                 <output>fcs/rudder-pos-norm</output>
+            </aerosurface_scale>
+
         </channel>
         <channel name="Flaps">
             <kinematic name="Flaps Control">
@@ -451,6 +484,20 @@
                 </traverse>
                 <output>fcs/flap-pos-deg</output>
             </kinematic>
+
+            <aerosurface_scale name="Flap position normalized">
+                 <input>fcs/flap-pos-deg</input>
+                 <domain>
+                    <min>0</min>
+                    <max>45</max>
+                 </domain>
+                 <range>
+                     <min>0</min>
+                     <max>1</max>
+                 </range>
+                 <output>fcs/flap-pos-norm</output>
+            </aerosurface_scale>
+
         </channel>
         <channel name="Landing Gear">
             <kinematic name="Gear Control">
@@ -496,7 +543,7 @@
         </function>
 
         <axis name="DRAG">
-	
+
             <function name="aero/coefficient/CDo">
                 <description>Drag_at_zero_lift</description>
                 <product>
@@ -505,7 +552,7 @@
                     <value>0.028</value>
                 </product>
             </function>
-	    
+
             <function name="aero/coefficient/CDalpha">
                 <description>Drag_due_to_alpha</description>
                 <product>
@@ -544,7 +591,7 @@
                       </table>
                 </product>
             </function>
-	    
+
             <function name="aero/coefficient/CDDf">
                 <description>Delta_drag_due_to_flap_deflection</description>
                 <product>
