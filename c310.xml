@@ -979,6 +979,7 @@
             </function>
         </axis>
     </aerodynamics>
+<!--
     <output name="C310.csv" type="CSV" rate="2">
         <simulation> OFF </simulation>
         <atmosphere> OFF </atmosphere>
@@ -1017,4 +1018,5 @@
         <property> propulsion/engine[0]/advance-ratio </property>
         <property> forces/fbx-gear-lbs </property>
     </output>
+-->
 </fdm_config>
