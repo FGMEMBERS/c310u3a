@@ -2,6 +2,9 @@
 
 <PropertyList include="c310u3a-set.xml">
  <sim>
+   <!-- aircraft needs to be made standalone for hangar support, or
+   mmerged with the main c310 -->
+   <exclude-from-catalog type="bool">true</exclude-from-catalog>
   <description>Alias for c310u3a.</description>
  </sim>
 </PropertyList>
